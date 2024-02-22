@@ -3,10 +3,10 @@
 --cor-fundo-linear:#4EBFE9;
 --cor-fundo-baixo:#000000;
 --cor-fonte:#FFF500;
---cor-fonte:#FFFFFF;
+--cor-fonte-cabecalho:#FFFFFF;
 
 }
 .cabecalho{
     background-color: var(--cor-fundo-cabecalho);
-    color: var(font)
+    color:var(--cor-fonte-cabecalho);
 }
