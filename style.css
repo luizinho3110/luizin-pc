@@ -9,4 +9,23 @@
 .cabecalho{
     background-color: var(--cor-fundo-cabecalho);
     color:var(--cor-fonte-cabecalho);
+    display: flex;
+    justify-content: space-around;
+
+}
+    .imagemcabecalho{
+         width: 10%;
+
+
+
+}
+
+
+
+    .item-lista-cabecalho{
+    display: inline-block;
+    margin:10px 16px ;
+    font-size: 24px;
+    margin-top: 20px;
+
 }
