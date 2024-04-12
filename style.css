@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
 --cor-fundo-cabecalho:#7D00B8;
 --cor-fundo-linear:#4EBFE9;
 --cor-fundo-baixo:#000000;
 --cor-fonte:#FFF500;
 --cor-fonte-cabecalho:#FFFFFF;
+--cor-fundo1: #00034A;
+--cor-fundo2: #3D96C6;
+--cor-fundo3: #00034A;
+--cor-fontes: #FFFFFF;
 
 }
 .cabecalho{
@@ -14,29 +22,16 @@
 
 }
     .imagemcabecalho{
-         width: 10%;
-
-
+         width: 10%
 
 }
 
-
-
-    .item-lista-cabecalho{
+   .item-lista-cabecalho{
     display: inline-block;
     margin:10px 16px ;
     font-size: 24px;
     margin-top: 20px;
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    :root{
-        --cor-fundo: #00034A;
-        --cor-fundo: #3D96C6;
-        --cor-fundo: #00034A;
-        --cor-fontes: #FFFFFF;
-    }
+}
     .cabecalho{
         background-color: var(--cor-fundo);
         color: var(--cor-fontes);
@@ -104,4 +99,3 @@
         padding: 12px 0;
     }
     
-}
