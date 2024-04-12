@@ -88,10 +88,7 @@
     .estudante-titulo{
         text-align: center;
     }
-    .icone-estudante{
-        width: 20px;
-        padding: 4px 8px;
-    }
+
     .estudante-todos{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
